@@ -1,0 +1,36 @@
+Computer Systems w Dr Blythe
+September 2022
+Written by Belle Erhardt
+
+Dr. Blythe:
+I have a feeling my program could be written in a fraction of lines of code, but to do so
+I think I need to figure out how to use signal better. While my code is messy, it 98% works
+with that said here are the bugs..
+
+    * Pipe can run but it gets stuck and user will have to ctrl + C to exit program
+    * the second half of pipe can only read a 1 work command
+    
+
+
+
+Steps processed:
+1. Made if else structure
+2. started cd implementation
+    * Need to find command to return file name, after that can complete this task
+    * Answer was... I needed to type cast the function (_argArray = (string*) com.args();)
+3. Researched and worked out execp, it works with single word commands.
+    * Need to test and fix to work with multi word commands
+    * created a for loop to fix the multi argument read in. didnt work, currently commented out
+4. The backgrounded function was completed by rearanging the position of things, it is tested and functional
+    * If I fix 3 to be bugless this will need to be revisited **
+5. After the big repostioning of this file there was a lot of bug fixing and adapting,
+execvp stoped working for a bit but after a night of fixing everying except backgrounding and pipe works.
+    (Personal thought, where it is at looks messy right now, but I have just over 24 hours to
+    complete so if I finish early I will go back and try to clean up the code so there is not so much repetition)
+6. Pipe is mostly working, unsure if its a requirement but it can only take in one word commands after the pipe
+    Also if the pipe is ran you cannot exit the terminal
+7. I am going to try to make is backgrounded work in a less brute force way.
+8
+    
+
+
